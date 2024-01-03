@@ -19,9 +19,6 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
 
-    <!-- hover.css -->
-    <link href="css/hover.css" rel="stylesheet" media="all" />
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,15 +40,22 @@
         <div class="logo">
           <h1 class="bangers prima">SAUNG <span class="light">UU.</span></h1>
         </div>
+
         <ul class="d-flex justify-content-between align-items-center">
           <li>
-            <a href="" class="nav-a text-decoration-none prima">
+            <a href="#" class="nav-a text-decoration-none prima">
               <div class="icon"><i class="bi bi-house-fill"></i></div>
               <h6 class="layer">HOME</h6>
             </a>
           </li>
           <li>
             <a href="#about" class="nav-a text-decoration-none prima">
+              <div class="icon"><i class="bi bi-people-fill"></i></div>
+              <h6 class="layer">ABOUT US</h6>
+            </a>
+          </li>
+          <li>
+            <a href="#menu" class="nav-a text-decoration-none prima">
               <div class="icon"><i class="bi bi-cart-fill"></i></div>
               <h6 class="layer">OUR MENU</h6>
             </a>
@@ -63,13 +67,13 @@
             </a>
           </li>
           <li>
-            <a href="" class="nav-a text-decoration-none prima">
+            <a href="#booking" class="nav-a text-decoration-none prima">
               <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
               <h6 class="layer">LOCATION</h6>
             </a>
           </li>
           <li>
-            <a href="" class="nav-a text-decoration-none prima">
+            <a href="#contact" class="nav-a text-decoration-none prima">
               <div class="icon"><i class="bi bi-chat-left-fill"></i></div>
               <h6 class="layer">CONTACT US</h6>
             </a>
@@ -77,23 +81,26 @@
         </ul>
 
         <!-- hbgr menu -->
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
       <!-- navbar end -->
 
       <!-- home start -->
 
       <section
-        class="home bg-dark d-flex justify-content-between align-items-center"
+        class="home section-border-bottom bg-dark d-flex justify-content-between align-items-center"
       >
         <div class="title d-flex flex-column justify-content-center">
           <h1 class="prima bebas">SAUNG UU RESTAURANT</h1>
           <p class="light indie">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-            dicta, facilis fugit ea hic iusto nihil nulla nesciunt doloremque
-            culpa perspiciatis! Qui excepturi quidem aspernatur saepe sapiente
-            veritatis, ea a temporibus iste nihil esse eaque iusto. Enim
-            voluptate ducimus esse, vero incidunt laboriosam, odit temporibus
-            laborum sunt quidem reprehenderit? Veritatis!
+            Typical Sundanese food and typical Purwakarta satay, providing a
+            memorable dining experience with the concept of a lesehan hut, and
+            beautiful views.
           </p>
         </div>
         <div class="card-home card bg-dark light">
@@ -113,7 +120,7 @@
 
     <!-- about us -->
 
-    <section class="about" id="about">
+    <section class="about section-border-bottom" id="about">
       <h1 class="judul white bebas">ABOUT <span class="prima">US.</span></h1>
 
       <div class="about-content d-flex" style="width: 100%">
@@ -142,9 +149,107 @@
 
     <!-- about us end -->
 
+    <!-- our menu -->
+
+    <section class="our-menu section-border-bottom" id="menu">
+      <h1 class="judul white bebas">OUR <span class="prima">MENU.</span></h1>
+      <div class="container-menu d-flex flex-column">
+        <div class="menu-content d-flex flex-wrap justify-content-center">
+          <div class="box-menu">
+            <div class="img-menu">
+              <img src="image/sate.jpeg" alt="" width="150px" height="150px" />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">SATE MARANGGI</h2>
+              <p class="indie white">Sapi and Kambing</p>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div class="img-menu">
+              <img src="image/sop.jpeg" alt="" width="150px" height="150px" />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">SOP</h2>
+              <p class="indie white">Sapi and Kambing.</p>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div class="img-menu">
+              <img
+                src="image/ikangoreng.jpeg"
+                alt=""
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">IKAN GORENG</h2>
+              <p class="indie white">Nila and Gurame.</p>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div class="img-menu">
+              <img
+                src="image/ikanbakar.jpeg"
+                alt=""
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">IKAN BAKAR</h2>
+              <p class="indie white">Nila and Gurame.</p>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div class="img-menu">
+              <img
+                src="image/tumiskangkung.jpeg"
+                alt=""
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">TUMIS KANGKUNG</h2>
+              <p class="indie white">Spicy can be adjusted.</p>
+            </div>
+          </div>
+          <div class="box-menu">
+            <div class="img-menu">
+              <img
+                src="image/karedok.jpeg"
+                alt=""
+                width="150px"
+                height="150px"
+              />
+            </div>
+            <div class="title-menu">
+              <h2 class="bebas white">KAEDOK</h2>
+              <p class="indie white">Spicy can be adjusted.</p>
+            </div>
+          </div>
+        </div>
+        <p class="white poppins info">
+          send a message to admin for other menus!
+        </p>
+        <a href="#booking" class="menu-button"
+          ><button
+            class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
+            type="button"
+            style="width: 100%"
+          >
+            BOOKING NOW!
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- our menu -->
+
     <!-- booking now start -->
 
-    <section class="" id="booking">
+    <section class="section-border-bottom" id="booking">
       <div class="content-booking d-flex">
         <div
           class="d-flex flex-column align-items-center booking-left"
@@ -156,7 +261,7 @@
           <h1 class="prima bebas">BOOKING NOW!</h1>
           <i class="bi bi-caret-down-fill row-icon prima"></i>
           <div class="d-flex flex-column gap-3" style="width: 100%">
-            <a href="" class="hvr-float-shadow"
+            <a href="" class=""
               ><button
                 class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
                 type="button"
@@ -165,7 +270,7 @@
                 Via Whatsapp 1 &nbsp;&nbsp;<i class="bi bi-whatsapp"></i>
               </button>
             </a>
-            <a href="" class="hvr-float-shadow"
+            <a href="" class=""
               ><button
                 class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
                 type="button"
@@ -190,7 +295,13 @@
             </div>
           </div>
           <div class="card-right card bg-dark">
-            <img src="image/purwakarta1.webp" class="card-img" alt="..." />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.383580582602!2d107.4009822!3d-6.6350118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6905c501e50e15%3A0x6d926cae7d39c69a!2sSate%20maranggi%20Saung%20UU!5e0!3m2!1sid!2sid!4v1704134133725!5m2!1sid!2sid"
+              allowfullscreen=""
+              class="maps"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
             <div class="card-img-overlay">
               <h2 class="card-title prima bangers">PURWAKARTA</h2>
               <p class="card-text light">
@@ -205,6 +316,159 @@
         </div>
       </div>
     </section>
+
+    <!-- booking now end -->
+
+    <!-- location start-->
+
+    <section class="location section-border-bottom" id="location">
+      <h1 class="judul white bebas">
+        SEE <span class="prima">LOCATION.</span>
+      </h1>
+      <div class="container-map d-flex bg-dark">
+        <div class="map-left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.383580582602!2d107.4009822!3d-6.6350118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6905c501e50e15%3A0x6d926cae7d39c69a!2sSate%20maranggi%20Saung%20UU!5e0!3m2!1sid!2sid!4v1704134133725!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="map-center d-flex flex-column gap-3">
+          <h5 class="prima">Sate maranggi Saung UU</h5>
+          <p class="sec">
+            Jl. Raya Anjun-Plered-Purwakarta, Anjun, Kec. Plered, Kabupaten
+            Purwakarta, Jawa Barat 41162
+          </p>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="container-img carousel slide"
+        >
+          <div class="strip carousel-indicators">
+            <button
+              aria-colspan="btn-strip"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="img-location carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/asset3.JPG" class="d-block" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="image/asset4.jpg" class="d-block" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="image/asset5.jpg" class="d-block" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="image/asset6.jpg" class="d-block" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- location end-->
+
+    <!-- contact start -->
+
+    <section class="contact-us section-border-bottom" id="contact">
+      <h1 class="judul white bebas">CONTACT <span class="prima">US.</span></h1>
+      <div class="content-contact d-flex">
+        <div class="sosmed d-flex flex-column">
+          <h1 class="bebas white">our social media</h1>
+          <div class="sosmed-icon d-flex flex-wrap justify-content-center">
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-tiktok"></i></a>
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+          </div>
+          <p class="poppins white">
+            visit and follow every update on our social media!
+          </p>
+        </div>
+        <form action="">
+          <div class="input-group">
+            <i class="bi bi-person white"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-envelope-at white"></i>
+            <input type="email" placeholder="Email" autocomplete="off" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-phone white"></i>
+            <input type="text" placeholder="No Telephone" autocomplete="off" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-chat-left white"></i>
+            <textarea
+              class="form-control"
+              placeholder="Send a Massage"
+              rows="6"
+            ></textarea>
+          </div>
+          <a href="" class="btn bg-prima poppins"><h5>SUBMIT</h5></a>
+        </form>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+
+    <footer>
+      <div class="container-footer d-flex justify-content-center">
+        <i class="bi bi-c-circle"></i>&nbsp;
+        <p>RM. SATE MARANGGI SAUNG UU - NJRN 2023</p>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
 
     <!-- script bootstrap -->
     <script
