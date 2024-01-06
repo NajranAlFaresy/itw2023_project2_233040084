@@ -19,6 +19,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -67,7 +70,7 @@
             </a>
           </li>
           <li>
-            <a href="#booking" class="nav-a text-decoration-none prima">
+            <a href="#location" class="nav-a text-decoration-none prima">
               <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
               <h6 class="layer">LOCATION</h6>
             </a>
@@ -107,10 +110,10 @@
           <img src="image/asset2.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              for reservations and reservations press "more", and contact us in
+              the contact menu.
             </p>
-            <a href="#" class="btn-card btn">Go somewhere</a>
+            <a href="#menu" class="btn-card btn">MORE</a>
           </div>
         </div>
       </section>
@@ -121,27 +124,28 @@
     <!-- about us -->
 
     <section class="about section-border-bottom" id="about">
-      <h1 class="judul white bebas">ABOUT <span class="prima">US.</span></h1>
+      <h1 class="judul white bebas" data-aos="fade-up">
+        ABOUT <span class="prima">US.</span>
+      </h1>
 
       <div class="about-content d-flex" style="width: 100%">
-        <div class="about-img" style="width: 50%">
+        <div class="about-img" data-aos="fade-right" style="width: 50%">
           <img src="image/asset1.png" alt="" width="70%" />
         </div>
         <div
           class="title-about d-flex flex-column justify-content-center"
+          data-aos="fade-left"
           style="width: 50%"
         >
           <h2 class="prima bangers">SAUNG UU RESTAURANT</h2>
           <p class="white poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero
-            fugiat quod corrupti reprehenderit fuga laudantium veritatis sit
-            possimus dicta.
+            established on August 8 2017, is one of the restaurants with a
+            lesehan hut theme in the Plered area, Purwakarta. has a strategic
+            location and offers beautiful views.
           </p>
           <p class="white poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            assumenda facilis recusandae repellendus totam saepe ratione
-            praesentium non qui temporibus voluptatibus quae ab facere, rerum
-            quasi exercitationem voluptates earum quibusdam.
+            Serving a menu with a typical Sundanese food theme and typical
+            Purwakarta regional food, namely Sate Maranggi,
           </p>
         </div>
       </div>
@@ -152,10 +156,12 @@
     <!-- our menu -->
 
     <section class="our-menu section-border-bottom" id="menu">
-      <h1 class="judul white bebas">OUR <span class="prima">MENU.</span></h1>
+      <h1 class="judul white bebas" data-aos="fade-up">
+        OUR <span class="prima">MENU.</span>
+      </h1>
       <div class="container-menu d-flex flex-column">
         <div class="menu-content d-flex flex-wrap justify-content-center">
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img src="image/sate.jpeg" alt="" width="150px" height="150px" />
             </div>
@@ -164,7 +170,7 @@
               <p class="indie white">Sapi and Kambing</p>
             </div>
           </div>
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img src="image/sop.jpeg" alt="" width="150px" height="150px" />
             </div>
@@ -173,7 +179,7 @@
               <p class="indie white">Sapi and Kambing.</p>
             </div>
           </div>
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img
                 src="image/ikangoreng.jpeg"
@@ -187,7 +193,7 @@
               <p class="indie white">Nila and Gurame.</p>
             </div>
           </div>
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img
                 src="image/ikanbakar.jpeg"
@@ -201,7 +207,7 @@
               <p class="indie white">Nila and Gurame.</p>
             </div>
           </div>
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img
                 src="image/tumiskangkung.jpeg"
@@ -215,7 +221,7 @@
               <p class="indie white">Spicy can be adjusted.</p>
             </div>
           </div>
-          <div class="box-menu">
+          <div class="box-menu" data-aos="flip-left">
             <div class="img-menu">
               <img
                 src="image/karedok.jpeg"
@@ -233,9 +239,9 @@
         <p class="white poppins info">
           send a message to admin for other menus!
         </p>
-        <a href="#booking" class="menu-button"
+        <a href="#booking" class="menu-button" data-aos="zoom-in"
           ><button
-            class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
+            class="booking hvr poppins btn-primary bg-prima light rounded pb-3 pt-3"
             type="button"
             style="width: 100%"
           >
@@ -261,18 +267,18 @@
           <h1 class="prima bebas">BOOKING NOW!</h1>
           <i class="bi bi-caret-down-fill row-icon prima"></i>
           <div class="d-flex flex-column gap-3" style="width: 100%">
-            <a href="" class=""
+            <a href="" class="" data-aos="zoom-in"
               ><button
-                class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
+                class="booking hvr poppins btn-primary bg-prima light rounded pb-3 pt-3"
                 type="button"
                 style="width: 100%"
               >
                 Via Whatsapp 1 &nbsp;&nbsp;<i class="bi bi-whatsapp"></i>
               </button>
             </a>
-            <a href="" class=""
+            <a href="" class="" data-aos="zoom-in"
               ><button
-                class="booking poppins btn-primary bg-prima light rounded pb-3 pt-3"
+                class="booking hvr poppins btn-primary bg-prima light rounded pb-3 pt-3"
                 type="button"
                 style="width: 100%"
               >
@@ -282,8 +288,8 @@
           </div>
         </div>
         <!-- card -->
-        <div class="card-booking">
-          <div class="card-right card bg-dark">
+        <div class="card-booking d-flex flex-column gap-3" >
+          <div class="card-right card bg-dark" data-aos="flip-up">
             <img src="image/satemaranggi.jpeg" class="card-img" alt="..." />
             <div class="card-img-overlay">
               <h2 class="card-title prima bangers">SATE MARANGGI</h2>
@@ -291,10 +297,10 @@
                 The main menu is a typical meal from the location of this
                 restaurant, namely the city of Purwakarta
               </p>
-              <a href="#" class="btn-card btn hvr-float-shadow">OUR MENU</a>
+              <a href="#menu" class="btn-card btn">OUR MENU</a>
             </div>
           </div>
-          <div class="card-right card bg-dark">
+          <div class="card-right card bg-dark" data-aos="flip-up">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.383580582602!2d107.4009822!3d-6.6350118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6905c501e50e15%3A0x6d926cae7d39c69a!2sSate%20maranggi%20Saung%20UU!5e0!3m2!1sid!2sid!4v1704134133725!5m2!1sid!2sid"
               allowfullscreen=""
@@ -308,9 +314,7 @@
                 The restaurant location is in Plered, Purwakarta City, visit our
                 restaurant now!
               </p>
-              <a href="#" class="btn-card btn hvr-float-shadow"
-                >VIEW LOCATION</a
-              >
+              <a href="#location" class="btn-card btn">VIEW LOCATION</a>
             </div>
           </div>
         </div>
@@ -322,10 +326,10 @@
     <!-- location start-->
 
     <section class="location section-border-bottom" id="location">
-      <h1 class="judul white bebas">
+      <h1 class="judul white bebas" data-aos="fade-up">
         SEE <span class="prima">LOCATION.</span>
       </h1>
-      <div class="container-map d-flex bg-dark">
+      <div class="container-map d-flex bg-dark" >
         <div class="map-left">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.383580582602!2d107.4009822!3d-6.6350118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6905c501e50e15%3A0x6d926cae7d39c69a!2sSate%20maranggi%20Saung%20UU!5e0!3m2!1sid!2sid!4v1704134133725!5m2!1sid!2sid"
@@ -415,7 +419,9 @@
     <!-- contact start -->
 
     <section class="contact-us section-border-bottom" id="contact">
-      <h1 class="judul white bebas">CONTACT <span class="prima">US.</span></h1>
+      <h1 class="judul white bebas" data-aos="fade-up">
+        CONTACT <span class="prima">US.</span>
+      </h1>
       <div class="content-contact d-flex">
         <div class="sosmed d-flex flex-column">
           <h1 class="bebas white">our social media</h1>
@@ -450,7 +456,7 @@
               rows="6"
             ></textarea>
           </div>
-          <a href="" class="btn bg-prima poppins"><h5>SUBMIT</h5></a>
+          <a href="" class="btn bg-prima poppins" data-aos="zoom-in"><h5>SUBMIT</h5></a>
         </form>
       </div>
     </section>
@@ -476,5 +482,11 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

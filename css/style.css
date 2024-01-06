@@ -100,6 +100,12 @@ body {
   background: var(--dark-color);
 }
 
+.hvr:hover {
+background: var(--second-me);
+color: var(--white-color);
+
+}
+
 /* MY STYLE */
 /* navigasi start */
 
@@ -162,15 +168,6 @@ nav {
 
 .menu-toggle input:checked ~ span:nth-child(3) {
   transform: scale(0);
-}
-
-/* responsive */
-
-/* tablet */
-@media screen and (max-width: 768px) {
-  nav ul {
-    width: 50%;
-  }
 }
 
 .nav-a {
@@ -591,7 +588,7 @@ footer .container-footer {
 
 @media screen and (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 55%;
   }
 
   .menu-toggle {
@@ -645,5 +642,9 @@ footer .container-footer {
 
   .container-img {
     width: 50%;
+  }
+
+  .content-contact {
+    flex-direction: column;
   }
 }
